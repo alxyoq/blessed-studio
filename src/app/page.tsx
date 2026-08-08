@@ -16,7 +16,7 @@ const localBusinessSchema = {
       "@type": "HairSalon",
       "@id": `${site.seo.url}/#gloucester-city`,
       name: site.brand.name,
-      image: `${site.seo.url}/images/blessed-logo.jpg`,
+      image: `${site.seo.url}${site.brand.logo}`,
       url: site.seo.url,
       telephone: "+1-856-261-8243",
       priceRange: "$$",

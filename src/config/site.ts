@@ -39,7 +39,7 @@ export const site = {
     shortName: "Blessed",
     tagline: "One blessed cut at a time.",
     instagramHandle: "@blessedstudiollc",
-    logo: "/images/blessed-logo.jpg",
+    logo: "/images/blessed-logo.png",
   },
 
   seo: {

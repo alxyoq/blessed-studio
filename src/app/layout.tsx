@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: site.seo.url,
     images: [
       {
-        url: "/images/blessed-logo.jpg",
+        url: site.brand.logo,
         width: 959,
         height: 407,
         alt: "Blessed Hair Studio",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: site.seo.title,
     description: site.seo.description,
-    images: ["/images/blessed-logo.jpg"],
+    images: [site.brand.logo],
   },
 };
 

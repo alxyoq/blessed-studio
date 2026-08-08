@@ -26,7 +26,6 @@ export function About() {
               loading="lazy"
             />
           </figure>
-          <span className="about-star" aria-hidden="true">★</span>
         </Reveal>
 
         <Reveal className="about-copy" delay={100}>

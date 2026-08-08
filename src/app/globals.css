@@ -526,8 +526,8 @@ a {
 }
 
 .hero-logo-frame img {
+  display: block;
   width: 100%;
-  mix-blend-mode: screen;
 }
 
 .hero-eyebrow {
@@ -1348,22 +1348,6 @@ a {
   border: 6px solid rgb(var(--ink));
 }
 
-.about-star {
-  position: absolute;
-  top: 34px;
-  right: 7%;
-  display: grid;
-  width: 90px;
-  height: 90px;
-  place-items: center;
-  transform: rotate(8deg);
-  border: 7px solid rgb(var(--ink));
-  background: rgb(var(--red));
-  color: rgb(var(--yellow));
-  font-size: 2rem;
-  box-shadow: 0 18px 35px rgb(0 0 0 / 0.36);
-}
-
 .about-copy .eyebrow {
   color: rgb(var(--yellow));
 }
@@ -2122,12 +2106,6 @@ a {
   .about-image--secondary {
     width: 46%;
     height: 230px;
-  }
-
-  .about-star {
-    right: 1%;
-    width: 70px;
-    height: 70px;
   }
 
   .booking-heading .eyebrow {
