@@ -56,6 +56,11 @@ export const site = {
     { label: "About", href: "#about" },
   ],
 
+  purchase: {
+    label: "Buy website now",
+    href: "https://buy.stripe.com/6oU6oI4t9fsI52c4oidwc06?prefilled_promo_code=FIRST10FREE3&client_reference_id=blessed_studio",
+  },
+
   social: [
     {
       platform: "instagram",

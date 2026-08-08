@@ -1602,7 +1602,7 @@ a {
 /* Footer */
 .site-footer {
   position: relative;
-  padding: 90px 0 30px;
+  padding: 90px 0 110px;
   border-top: 1px solid rgb(var(--silver) / 0.14);
   background: #050606;
 }
@@ -1750,6 +1750,49 @@ a {
 
 .footer-bottom p {
   margin: 0;
+}
+
+.buy-website-button {
+  position: fixed;
+  z-index: 70;
+  right: 24px;
+  bottom: 24px;
+  display: inline-flex;
+  min-height: 64px;
+  max-width: calc(100vw - 48px);
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  padding: 16px 26px;
+  border: 2px solid rgb(var(--paper));
+  border-radius: 999px;
+  background: rgb(var(--yellow));
+  color: rgb(var(--ink));
+  box-shadow:
+    6px 6px 0 rgb(var(--red)),
+    0 14px 36px rgb(0 0 0 / 0.42);
+  font-family: var(--font-display), sans-serif;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: background-color 180ms ease, color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.buy-website-button:hover {
+  background: rgb(var(--paper));
+  color: rgb(var(--ink));
+  box-shadow:
+    8px 8px 0 rgb(var(--red)),
+    0 18px 42px rgb(0 0 0 / 0.48);
+  transform: translateY(-3px);
+}
+
+.buy-website-button svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
 }
 
 .floating-book {
@@ -2150,6 +2193,16 @@ a {
     align-items: flex-start;
     flex-direction: column;
     margin-top: 50px;
+  }
+
+  .buy-website-button {
+    right: 14px;
+    bottom: calc(80px + env(safe-area-inset-bottom));
+    min-height: 58px;
+    max-width: calc(100vw - 28px);
+    padding: 14px 20px;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
   }
 
   .floating-book {

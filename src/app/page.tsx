@@ -3,6 +3,7 @@ import { Booking } from "@/components/sections/Booking";
 import { Gallery } from "@/components/sections/Gallery";
 import { Locations } from "@/components/sections/Locations";
 import { Services } from "@/components/sections/Services";
+import { BuyWebsiteButton } from "@/components/BuyWebsiteButton";
 import { FloatingBooking } from "@/components/FloatingBooking";
 import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
@@ -64,6 +65,7 @@ export default function Home() {
         <Booking />
       </main>
       <Footer />
+      <BuyWebsiteButton />
       <FloatingBooking />
       <script
         type="application/ld+json"

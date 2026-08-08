@@ -25,7 +25,7 @@ export function Nav() {
 
     const trigger = menuButton.current;
     const backgroundElements = document.querySelectorAll<HTMLElement>(
-      ".nav-inner, main, .site-footer, .floating-book",
+      ".nav-inner, main, .site-footer, .buy-website-button, .floating-book",
     );
     backgroundElements.forEach((element) => element.setAttribute("inert", ""));
     document.body.style.overflow = "hidden";
